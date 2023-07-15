@@ -305,7 +305,11 @@ function normalizeColor(hexCode) {
             (/*this.isIntersecting && */this.conf.playing || this.isMouseDown) && requestAnimationFrame(this.animate)
         }), e(this, "addIsLoadedClass", () => {
             /*this.isIntersecting && */!this.isLoadedClass && (this.isLoadedClass = !0, this.el.classList.add("isLoaded"), setTimeout(() => {
+                try {
                 this.el.parentElement.classList.add("isLoaded")
+                } catch (e) {
+                    console.log(e)
+                }
             }, 3e3))
         }), e(this, "pause", () => {
             this.conf.playing = false

@@ -17,8 +17,8 @@ export const GradientGenerator = () => {
     }
   }, []);
   return (
-    <div style={{width: '100%', height: '100%', position: 'absolute', zIndex: '2'}}>
+    
         <canvas id="gradient-canvas" data-transition-in />
-    </div>
+    
   );
 }
