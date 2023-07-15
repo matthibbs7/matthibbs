@@ -1,5 +1,4 @@
 'use client'
-import Cursor from '@/components/Cursor/Cursor';
 import DotRing from '@/components/DotRing/DotRing';
 import { Gradient } from '@/components/GradientGenerator/Gradient'
 import { GradientGenerator } from '@/components/GradientGenerator/GradientGenerator'
@@ -63,7 +62,7 @@ useEffect(() => {
         <div className="w-full h-40 flex -mt-10">
           <div className="w-20 flex-col">
             <p onClick={() => setTv('canvas')} style={{fontFamily: 'roobertm', fontSize: '16px', letterSpacing: '4.5px'}}>matthew</p>
-            <p onClick={() => setTv('canvas')} style={{fontFamily: 'roobertm', fontSize: '15.5px', marginTop: '3.25px', letterSpacing: '4.5px'}}>hibbs</p>
+            <p onClick={() => setTv('canvas')} style={{fontFamily: 'roobertm', fontSize: '15.5px', marginTop: '3.25px', letterSpacing: '4.5px'}}>hibbs :)</p>
           </div>
           <div className="w-50 flex ml-auto">
             <p style={{fontFamily: 'roobert', fontSize: '12px'}}>|</p>
