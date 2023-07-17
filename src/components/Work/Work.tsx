@@ -24,24 +24,7 @@ export const Work = () => {
             <div className=' h-16 flex items-center px-6' style={{borderBottom: '1px solid gray'}}>
                 <p style={{fontFamily: 'roobert', fontSize: '14px'}}>Rollsolid.com</p>
             </div>
-            <div className='h-16 flex items-center px-6' style={{borderBottom: '1px solid gray'}}>
-                <p style={{fontFamily: 'roobert', fontSize: '14px'}}>Rollsolid.com</p>
-            </div>
-            <div className=' h-16 flex items-center px-6' style={{borderBottom: '1px solid gray'}}>
-                <p style={{fontFamily: 'roobert', fontSize: '14px'}}>Rollsolid.com</p>
-            </div>
-            <div className='h-16 flex items-center px-6' style={{borderBottom: '1px solid gray'}}>
-                <p style={{fontFamily: 'roobert', fontSize: '14px'}}>Rollsolid.com</p>
-            </div>
-            <div className=' h-16 flex items-center px-6' style={{borderBottom: '1px solid gray'}}>
-                <p style={{fontFamily: 'roobert', fontSize: '14px'}}>Rollsolid.com</p>
-            </div>
-            <div className='h-16 flex items-center px-6' style={{borderBottom: '1px solid gray'}}>
-                <p style={{fontFamily: 'roobert', fontSize: '14px'}}>Rollsolid.com</p>
-            </div>
-            <div>
-                <p>Rollsolid.com</p>
-            </div>s
+            
         </div>
         <p color='white'>Work</p>
     </div>
