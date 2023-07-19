@@ -62,3 +62,10 @@
   .white {
     color: 'white'
   }
+
+  .gradient-text {
+    background: #70CFA3;
+    background: linear-gradient(to right, #70CFA3 0%, #EEFFAB 50%, #CF636E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
