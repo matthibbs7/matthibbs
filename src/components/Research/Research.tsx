@@ -18,7 +18,7 @@ export const Research = () => {
             
         </div> */}
         <div className='flex flex-col md:flex-row mt-8 items-center lg:items-start'>
-            <div className='w-full md:w-1/2 mt-5 md:mt-2' style={{minWidth: '300px', border: '1px solid red'}}>
+            <div className='w-full md:w-1/2 mt-5 md:mt-2' style={{minWidth: '300px'}}>
                 <p style={{fontFamily: 'roobert', fontSize: '27px'}}>Developed geostatistical modeling and high performance computing software for subglacial topological simulation in collaboration with the University of Florida Research and NVIDIA AI Staff to improve ice sheet models and sea level rise projections.</p>
             </div>
             
